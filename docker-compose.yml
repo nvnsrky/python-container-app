@@ -1,0 +1,9 @@
+version: '3'
+
+services:
+  python-container:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    volumes:
+      - ./app:/app
